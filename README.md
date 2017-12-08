@@ -1,2 +1,2 @@
 # Hakaton
-Decentralised community.
+Lottery
