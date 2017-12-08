@@ -1,0 +1,7 @@
+DirectoryIndex index.html index.htm index.php
+ErrorDocument 404 /index.php
+
+RewriteEngine on
+RewriteBase /investor/
+RewriteRule ^(.*\.i)$ index.php?page=$1 [L,QSA]
+
