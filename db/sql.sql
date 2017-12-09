@@ -88,9 +88,9 @@ ALTER TABLE ic_tokens OWNER TO investor;
 -- Name: COLUMN ic_tokens.moneyflow; Type: COMMENT; Schema: public; Owner: investor
 --
 
-COMMENT ON COLUMN ic_tokens.moneyflow IS 'движение денег
-true - пришло
-false - ушло';
+COMMENT ON COLUMN ic_tokens.moneyflow IS 'flow money
+true - debet
+false - credit;
 
 
 --
